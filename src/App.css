@@ -1,21 +1,32 @@
-.App{
+.App {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(./assets/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 734px;
+  width: 100%;
+  margin-bottom: 0;
+
 }
-.welcomeText{
+
+.welcomeText {
   font-size: 2em;
   font-weight: bold;
   color: rgb(224, 18, 18);
   margin-bottom: 1em;
 }
-.loginContainer{
+
+.loginContainer {
   display: flex;
   width: 100%;
   justify-content: flex-end;
 }
+
 .card {
-  height:400px;
+  height: 400px;
   width: 300px;
   display: flex;
   border-radius: 40px;
@@ -23,15 +34,18 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(216, 216, 216);
- 
+
 }
+
 .card:last-child {
   margin-bottom: 0;
 }
-.card:hover{
+
+.card:hover {
   transition: .3s;
   transform: translateY(-10%);
 }
+
 .card-title {
   text-align: center;
   font-size: 3rem;
@@ -39,21 +53,26 @@
   font-weight: 600;
   color: rgb(16, 131, 12);
 }
+
 .card-1 {
-  box-shadow: 2px 2px 4px #000 ,-1px 0px 10px 0 rgb(119, 117, 117);
+  box-shadow: 2px 2px 4px #000, -1px 0px 10px 0 rgb(119, 117, 117);
 }
-.title-sub{
+
+.title-sub {
   font-size: 7.6rem;
   font-weight: 600;
   color: rgb(16, 131, 12);
   text-align: center;
 }
-.counterContainer{
+
+.counterContainer {
   margin-bottom: 4.6rem;
 }
-.card:hover .card-title{
-  color: rgb(36, 52, 202);
+
+.card:hover .card-title {
+  color: rgb(202, 64, 36);
 }
-.card:hover{
+
+.card:hover {
   background-color: rgb(255, 255, 255);
 }
