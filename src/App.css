@@ -9,61 +9,10 @@
   color: rgb(224, 18, 18);
   margin-bottom: 1em;
 }
-.buttonContainer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  max-width: 200px;
-  width: 100%;
-}
 .loginContainer{
   display: flex;
   width: 100%;
   justify-content: flex-end;
-}
-.btn-container {
-  width: max-content;
-  background: #ddd;
-  padding: 1.5rem 2rem;
-  box-shadow: 0px 0px 10px 3px rgba(201, 201, 201, 0.5);
-  border-radius: .5rem;
-  display:flex;
-}
-.btn {
-  margin: 0.5em;
-  font-size: .8rem;
-  padding: .5rem 2rem;
-  border-radius: 3rem;
-  box-shadow: none;
-  border: 1px solid #523249;
-  /* color: #fff; */
-  text-transform: uppercase;
-  cursor: pointer;
-  min-width: 130px;
-  transition: all .35s ease-in;
-  font-weight: 900;
-  color: #fff;
-}
-
-.btn:hover {
-  color: #000;
-}
-
-#btn-hello {
-  background: #04A777;
-}
-
-#btn-hello:hover {
-  background: #6af0c8;
-}
-
-#btn-bye {
-  background: #881600;
-  /*815355;*/
-}
-
-#btn-bye:hover {
-  background: #FFA69E;
 }
 .card {
   height:400px;
@@ -76,16 +25,13 @@
   background-color: rgb(216, 216, 216);
  
 }
-
 .card:last-child {
   margin-bottom: 0;
 }
-
 .card:hover{
   transition: .3s;
   transform: translateY(-10%);
 }
-
 .card-title {
   text-align: center;
   font-size: 3rem;

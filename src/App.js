@@ -2,6 +2,7 @@ import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 import { loginAction, logoutAction } from "./redux/action";
 import CounterContainer from "./components/CounterContainer";
+import Button from "./components/Button";
 
 function App() {
   const dispatch = useDispatch();
@@ -16,27 +17,11 @@ function App() {
     <div className="App">
       {!isLogged ? (
         <div className="loginContainer">
-          {/* <button onClick={onPressLogin}>Login</button> */}
-
-          <button
-            className="btn"
-            id="btn-hello"
-            title="Login"
-            onClick={onPressLogin}
-          >
-            Login
-          </button>
+          <Button title="Login" onClick={onPressLogin} color="green" />
         </div>
       ) : (
         <div className="loginContainer">
-          <button
-            className="btn"
-            id="btn-bye"
-            title="Logout"
-            onClick={onPressLogout}
-          >
-            Logout
-          </button>
+          <Button title="Logout" onClick={onPressLogout} color="red" />
         </div>
       )}
       <h2 className="welcomeText">
