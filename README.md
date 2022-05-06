@@ -9,4 +9,4 @@
 `npm start`
 
 ![screenshots](counter.png)
-![screenshots](screenshots/counter.png)
+![screenshots](screenshots/counter1.png)
