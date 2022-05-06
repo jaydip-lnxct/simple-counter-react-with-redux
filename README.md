@@ -7,3 +7,5 @@
 `npm install or npm install --force`
 
 `npm start`
+
+![screenshots](counter.png)
